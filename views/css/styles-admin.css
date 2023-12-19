@@ -1,0 +1,145 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg, 
+        rgba(50,50,50,1) 0%, 
+        rgba(150,150,150,1) 30%, 
+        rgba(200,200,200,1) 50%, 
+        rgba(150,150,150,1) 70%, 
+        rgba(50,50,50,1) 100%);
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+.cont-menu{
+    height: 100%;
+    /* border: 3px solid black; */
+    background-color: rgb(23, 23, 23);
+    /* width: 25%; */
+    margin-left: 0px;
+    padding: 5px;
+    /* display: none; */
+    /* overflow-y: auto; */
+}
+.menu{
+    height: 100%;
+    /* border: 1px solid red; */
+    width: 255px;
+    margin-left: 0px;
+}
+.perfil{
+    /* border: 1px solid blue; */
+    color: whitesmoke;
+    height: 35%;
+    width: 254px;
+    padding: 3px;
+}
+.perfil img{
+    height: 60%;
+    border-radius: 50%;
+    margin-bottom: 12px
+}
+.perfil h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.perfil p{
+    font-size: 15px;
+}
+.sep-menu{
+    border:none;
+    width: 100%;
+    height: 5px; /* Establece la altura de la línea */
+    background: linear-gradient(to right, transparent, black, transparent);
+    background-size: 100% 20%;
+    margin: 0;
+}
+.opciones{
+    /* border: 1px solid green; */
+    height: 58%;
+    width: 254px;
+}
+.opciones nav ul{
+    list-style: none;
+}
+.opciones nav ul li p, .sub-menu{
+    cursor: pointer;
+    display: inline-block;
+    text-align: none;
+    color: whitesmoke;
+    margin: 0 5px;
+    padding: 3px;
+    transition: 0.5s;
+    text-decoration: none;
+    transform: scale(1);
+    transition: .5s;
+}
+.opciones nav ul li p:hover, .sub-menu:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(.95);
+}
+.opciones li{
+    overflow: hidden;
+}
+.arrow .list-arrow{
+    transform: rotate(-90deg);
+}
+.list-arrow{
+    transition: transform .5s;
+}
+.list-show{
+    transition: height .4s;
+    height: 0;
+}
+
+
+
+
+.cont-panel hr{
+    border: none;
+    height: 4px;
+    margin: 0px 0px 25px 0px;
+    background-color: rgb(80, 80, 80);
+}
+.panel-menu{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 5%;
+}
+.panel-menu img{
+    display: none;
+}
+.panel-encabezado{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 15%;
+}
+.panel-encabezado h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.panel-encabezado img{
+    width: 35px;
+    margin-right: 15px;
+}
+
+
+.panel{
+    border: 2px solid rgb(40, 40, 40);
+    width: 100%;
+    height: 75%;
+    padding: 5px;
+}
+#panel-admin, #panel-alumno{
+    width: 100%;
+    height: 100%;
+}

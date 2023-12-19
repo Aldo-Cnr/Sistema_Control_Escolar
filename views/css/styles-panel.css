@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg, 
+        rgba(50,50,50,1) 0%, 
+        rgba(150,150,150,1) 30%, 
+        rgba(200,200,200,1) 50%, 
+        rgba(150,150,150,1) 70%, 
+        rgba(50,50,50,1) 100%);
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 800px;
+}
+.card{
+    width: 155px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.card:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(.95);
+}

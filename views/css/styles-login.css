@@ -1,0 +1,85 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg, 
+        rgba(50,50,50,1) 0%, 
+        rgba(150,150,150,1) 30%, 
+        rgba(200,200,200,1) 50%, 
+        rgba(150,150,150,1) 70%, 
+        rgba(50,50,50,1) 100%);
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    background: linear-gradient(120deg, rgb(23, 23, 23)50%, #8c8b8a 50%);
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px 0px black;
+}
+
+.col-md-6{
+    width: 43%;
+}
+
+.cont-izq{
+    margin: 65px 65px 65px 0px;
+    text-align: center;
+}
+.cont-izq h1{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.cont-der{
+    margin: 65px 0px 65px 65px;
+    text-align: center;
+}
+.cont-der h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(52, 48, 48);
+}
+.form-control{
+    border: 1px solid rgb(61, 60, 60);
+}
+.form-control:focus{
+    border: none;
+    box-shadow: 2px 2px 15px 0px black;
+}
+.form-control::placeholder{
+    text-align: center;
+}
+.btn{
+    padding: 10px 25px;
+    background-color: rgb(37, 37, 39);
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+    transform: scale(.97);
+    transition: .5s;
+}
+.btn:hover{
+    background: rgb(60, 60, 60);
+    transform: scale(1);
+}
+.input-icon{
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    width: 30px;
+    left: 5px;
+    top: 55%;
+    transform: translateY(-55%);
+}
+p a{
+    color: black;
+}
