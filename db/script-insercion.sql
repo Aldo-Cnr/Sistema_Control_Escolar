@@ -24,7 +24,7 @@ INSERT INTO alumnos (id_alumno, nombres, apellidos, edad, status) VALUES
 -- -----------------------------------------------------
 -- Tabla `Sistema_Escolar_DB`.`docentes`
 -- -----------------------------------------------------
-INSERT INTO docentes (nombres, apellidos, edad, profesion) VALUES 
+INSERT INTO docentes (id_docente, nombres, apellidos, edad, profesion) VALUES 
 (1201, 'Juan', 'Pérez Gómez', '32', 'Ingeniería Industrial'),
 (1202, 'María', 'Rodríguez García', '29', 'Licenciatura en Letras Hispánicas'),
 (1203, 'Andrés', 'Martínez López', '30', 'Licenciatura en Bioquímica'),
