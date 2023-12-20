@@ -38,7 +38,7 @@ INSERT INTO docentes (id_docente, nombres, apellidos, edad, profesion) VALUES
 INSERT INTO admin (id_admin, nombres, apellidos, edad) VALUES 
 (101, 'Aldo', 'Conrado Rafael', '22');
 # Usuario administrador para elaborar las materias, inscripciones y horarios de cada semestre 
-INSERT INTO registro_usuarios(usuario, contraseña, admin_id, docente_id, alumno_id, telefono, correo, rol)
+INSERT INTO registro_usuarios(usuario, constraseña, admin_id, docente_id, alumno_id, telefono, correo, rol)
 VALUES('aldocnr37','admin123', 101, NULL, NULL, 7293495829, 'aldoconrado37@mail.com', 'admin');
 SELECT * FROM registro_usuarios;
 
