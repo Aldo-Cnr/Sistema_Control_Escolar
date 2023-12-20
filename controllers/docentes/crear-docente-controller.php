@@ -1,5 +1,5 @@
 <?php
-  include('/xampp/htdocs/sistema_escolar/config/conexion_mysql_i.php');
+  include('/xampp/htdocs/escuela/config/conexion_mysql_i.php');
 
   if(isset($_POST['register'])){
     if(
