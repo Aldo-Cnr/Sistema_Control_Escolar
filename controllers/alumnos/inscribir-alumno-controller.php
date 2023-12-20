@@ -16,8 +16,6 @@
       $registro = $stm->fetch(PDO::FETCH_LAZY);
       $status = $registro['status'];
       
-      echo $status;
-      
       if($status == 'pagado'){
         $query = "INSERT INTO inscripciones(alumno_id, semestre_id) VALUES 
         ('$matricula', '$id_semestre');";
