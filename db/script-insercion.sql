@@ -3,33 +3,33 @@ USE sistema_escolar_db;
 -- -----------------------------------------------------
 -- Tabla `Sistema_Escolar_DB`.`alumnos`
 -- -----------------------------------------------------
-INSERT INTO alumnos (nombres, apellidos, edad, status) VALUES 
-('Francisco', 'Martinez Suarez', '21', 'adeudo'), 
-('Ana', 'Díaz Herrera', '22', 'adeudo'),
-('Paula', 'Ramírez Medina', '17', 'pagado'),
-('Alejandro', 'Flores Vargas', '19', 'adeudo'),
-('Sandra Berenice', 'Hernandez Lopez', '21', 'pagado'),
-('Patricia', 'Ortiz Guzmán', '24', 'pagado'),
-('Carlos', 'Martínez García', '22', 'pagado'),
-('Sergio', 'López Castro', '24', 'adeudo'),
-('Juan', 'Pérez Gómez', '18', 'pagado'),
-('Daniel', 'Herrera Silva', '18', 'pagado'),
-('Oscar', 'Chavez Peña', '21', 'pagado'),
-('Aldo', 'Conrado Rafael', '22', 'pagado'),
-('María', 'Rodríguez López', '25', 'adeudo'),
-('Javier', 'González Torres', '23', 'pagado'),
-('Laura', 'Sánchez Ruiz', '21', 'pagado');
+INSERT INTO alumnos (id_alumno, nombres, apellidos, edad, status) VALUES 
+(201651,'Francisco', 'Martinez Suarez', '21', 'adeudo'), 
+(201652,'Ana', 'Díaz Herrera', '22', 'adeudo'),
+(201653,'Paula', 'Ramírez Medina', '17', 'pagado'),
+(201654, 'Alejandro', 'Flores Vargas', '19', 'adeudo'),
+(201655, 'Sandra Berenice', 'Hernandez Lopez', '21', 'pagado'),
+(201656, 'Patricia', 'Ortiz Guzmán', '24', 'pagado'),
+(201657, 'Carlos', 'Martínez García', '22', 'pagado'),
+(201658, 'Sergio', 'López Castro', '24', 'adeudo'),
+(201659, 'Juan', 'Pérez Gómez', '18', 'pagado'),
+(201660, 'Daniel', 'Herrera Silva', '18', 'pagado'),
+(201661, 'Oscar', 'Chavez Peña', '21', 'pagado'),
+(201662, 'Aldo', 'Conrado Rafael', '22', 'pagado'),
+(201663, 'María', 'Rodríguez López', '25', 'adeudo'),
+(201664, 'Javier', 'González Torres', '23', 'pagado'),
+(201665, 'Laura', 'Sánchez Ruiz', '21', 'pagado');
 
 
 -- -----------------------------------------------------
 -- Tabla `Sistema_Escolar_DB`.`docentes`
 -- -----------------------------------------------------
 INSERT INTO docentes (nombres, apellidos, edad, profesion) VALUES 
-('Juan', 'Pérez Gómez', '32', 'Ingeniería Industrial'),
-('María', 'Rodríguez García', '29', 'Licenciatura en Letras Hispánicas'),
-('Andrés', 'Martínez López', '30', 'Licenciatura en Bioquímica'),
-('Laura', 'Díaz Fernández', '35', 'Licenciatura en Historia'),
-('Carlos', 'Sánchez Ramírez', '29', 'Licenciatura en Ciencias del Deporte');
+(1201, 'Juan', 'Pérez Gómez', '32', 'Ingeniería Industrial'),
+(1202, 'María', 'Rodríguez García', '29', 'Licenciatura en Letras Hispánicas'),
+(1203, 'Andrés', 'Martínez López', '30', 'Licenciatura en Bioquímica'),
+(1204, 'Laura', 'Díaz Fernández', '35', 'Licenciatura en Historia'),
+(1205, 'Carlos', 'Sánchez Ramírez', '29', 'Licenciatura en Ciencias del Deporte');
 
 
 -- -----------------------------------------------------
