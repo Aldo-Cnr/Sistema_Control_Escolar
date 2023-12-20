@@ -72,7 +72,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `Sistema_Escolar_DB`.`registro_usuarios` (
   `id_registro` INT(11) NOT NULL AUTO_INCREMENT,
   `usuario` VARCHAR(120) NOT NULL,
-  `constraseña` VARCHAR(120) NOT NULL,
+  `contraseña` VARCHAR(120) NOT NULL,
   `admin_id` INT(11) NULL DEFAULT NULL,
   `docente_id` INT(11) NULL DEFAULT NULL,
   `alumno_id` INT(11) NULL DEFAULT NULL,
