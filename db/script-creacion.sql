@@ -14,8 +14,7 @@ CREATE TABLE IF NOT EXISTS `Sistema_Escolar_DB`.`alumnos` (
   `apellidos` VARCHAR(120) NOT NULL,
   `edad` INT(11) NOT NULL,
   `status` ENUM('pagado', 'adeudo') NOT NULL,
-  PRIMARY KEY (`id_alumno`)
-  )AUTO_INCREMENT = 20164
+  PRIMARY KEY (`id_alumno`))
 ENGINE = InnoDB;
 
 
@@ -51,9 +50,8 @@ CREATE TABLE IF NOT EXISTS `Sistema_Escolar_DB`.`docentes` (
   `apellidos` VARCHAR(120) NOT NULL,
   `edad` INT(11) NOT NULL,
   `profesion` VARCHAR(120) NOT NULL,
-  PRIMARY KEY (`id_docente`)
-  ) AUTO_INCREMENT = 120
-ENGINE = InnoDB;
+  PRIMARY KEY (`id_docente`)) 
+  ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -64,8 +62,7 @@ CREATE TABLE IF NOT EXISTS `Sistema_Escolar_DB`.`admin` (
   `nombres` VARCHAR(120) NOT NULL,
   `apellidos` VARCHAR(120) NOT NULL,
   `edad` INT(11) NOT NULL,
-  PRIMARY KEY (`id_admin`)
-  ) AUTO_INCREMENT = 10
+  PRIMARY KEY (`id_admin`))
 ENGINE = InnoDB;
 
 
