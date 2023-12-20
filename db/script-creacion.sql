@@ -124,7 +124,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Sistema_Escolar_DB`.`materias` (
   `id_materia` INT(11) NOT NULL AUTO_INCREMENT,
-  `nombre` VARCHAR(40) NOT NULL,
+  `materia` VARCHAR(40) NOT NULL,
   `docente_id` INT(11) NOT NULL,
   `semestre_id` INT(11) NOT NULL,
   `creditos` INT(11) NOT NULL,
